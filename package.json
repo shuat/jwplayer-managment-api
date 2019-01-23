@@ -1,0 +1,38 @@
+{
+  "name": "jwplayer-platform-managment-api",
+  "version": "1.0.0",
+  "description": "Smaller wrapper around JWPlayer's managment-api.",
+  "scripts": {
+    "lint": "eslint src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shua@bitbean.com",
+  "license": "GNU GPLv3",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuat/jwplayer-managment-api.git"
+  },
+  "deprecated": false,
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "homepage": "https://github.com/shuat/jwplayer-managment-api#readme",
+  "keywords": [
+    "video",
+    "jw",
+    "player",
+    "api",
+    "jwplayer",
+    "jwplatform"
+  ],
+  "main": "jwplayer-api.js",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "nonce": "^1.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "nodemon": "^1.18.3"
+  }
+}
