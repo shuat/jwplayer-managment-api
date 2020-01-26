@@ -28,7 +28,7 @@
   ],
   "main": "jwplayer-api.js",
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.19.2",
     "nonce": "^1.0.3"
   },
   "devDependencies": {
